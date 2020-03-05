@@ -8,7 +8,7 @@ int main(void)
     cin >> num;
     
     for (int i = 0; i < num; i++)
-    {
+	{
         cin >> a >> b;
         cout << a + b << '\n';
 	}
