@@ -18,6 +18,6 @@ int main(void)
                 total += 1;
 
     cout << total;
-    
-	return 0;
+
+    return 0;
 }
