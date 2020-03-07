@@ -4,13 +4,13 @@ using namespace std;
 
 int main(void)
 {
-    int t; // test case 개수
+    int t; // # of test case
     cin >> t;
     
     while (t--)
     {
-        int r; // 반복 횟수
-        string s; // 문자열
+        int r; // repeat time
+        string s; // string
         cin >> r >> s;
         int len = s.size();
         
