@@ -34,11 +34,11 @@ int main(void)
     return 0;
 }
 
-vector<int> pop_element(vector<int> v, int idx)
+vector<int> pop_element(vector<int> v, int element)
 {
     vector<int>::iterator iter;
     for (iter = v.begin(); iter != v.end(); iter++)
-        if (*iter == idx)
+        if (*iter == element)
         {
             v.erase(iter);
             break;
